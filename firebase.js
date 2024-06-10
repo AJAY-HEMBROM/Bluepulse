@@ -13,6 +13,6 @@ export const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app); // Get the auth object
 
-export { app, auth }; // Export both app and auth
+// export default { app, auth }; // Export both app and auth
 
-// export default app;
+export default app;
