@@ -1,0 +1,42 @@
+body{
+    background: url("https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+  }
+
+
+
+  .typewriter h1 {
+  color: black; /* Set text color to black */
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typewriter cursor */
+  white-space: normal; /* Allow text to wrap */
+  margin: 0; /* Remove auto margin */
+  padding: 0 10px; /* Add padding for better appearance */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+/* Create a container to position the typewriter text */
+.typewriter-container {
+  width: 50%; /* Adjust width as needed */
+  float: left; /* Align to the left */
+}
