@@ -37,7 +37,7 @@ const ShowTask = () => {
             Lal Babu Murmu
           </li>
           <li>
-            Subham Soren
+            Shubham Soren
           </li>
         </ul>
       </div>

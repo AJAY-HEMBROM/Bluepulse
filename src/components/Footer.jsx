@@ -7,8 +7,8 @@ const Footer = () => {
     <footer className="h-40 mt-60  text-white w-full ">
   <div className="flex justify-around p-5">
     <div className="text-center flex flex-col justify-center">
-      <h1 className="text-3xl">Smart Water Tank</h1>
-      <p>IOT based project</p>
+      <h1 className="text-3xl">BLUE PULSE</h1>
+      <p className="text-justify">provides innovative smart water management solutions.</p>
     </div>
     <div className="text-sm flex flex-col justify-center">
       <ul className="text-base flex flex-col text-white">

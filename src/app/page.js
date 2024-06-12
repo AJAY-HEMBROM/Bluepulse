@@ -1,7 +1,7 @@
 import Image from "next/image";
 import "../components/home.css";
 
-export const metadata = { title: "Home : Smart Water Tank" };
+export const metadata = { title: "Home : Blue Pulse" };
 
 export default function Home() {
   return (

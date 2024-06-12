@@ -7,29 +7,29 @@ const CustomNavbar = () => {
     <nav className=" h-8 py-2 px-3 text-opacity-100 text-white flex justify-between items-center">
       <div className="brand">
         <h1 className="p-4">
-          <a href="/">Smart Water Tank</a>
+          <a href="/">Blue Pulse</a>
         </h1>
       </div>
       <div>
         <ul className="flex space-x-3">
           <li>
-            <Link href="/" className="hover:text-blue-500">Home</Link>
+            <a href="/" className="hover:text-blue-500">Home</a>
           </li>
           <li>
-            <Link href="/dashboard-3" className="hover:text-blue-500">Dashboard</Link>
+            <a href="/dashboard-3" className="hover:text-blue-500">Dashboard</a>
           </li>
           <li>
-            <Link href="/about-us" className="hover:text-blue-500">About Us</Link>
+            <a href="/about-us" className="hover:text-blue-500">About Us</a>
           </li>
         </ul>
       </div>
       <div>
         <ul className="flex space-x-3">
           <li>
-            <Link href="/login" className="hover:text-blue-500">Login</Link>
+            <a href="/login" className="hover:text-blue-500">Login</a>
           </li>
           <li>
-            <Link href="/sign-up" className="hover:text-blue-500">Sign Up</Link>
+            <a href="/sign-up" className="hover:text-blue-500">Sign Up</a>
           </li>
         </ul>
       </div>

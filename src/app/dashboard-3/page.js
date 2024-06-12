@@ -3,6 +3,10 @@
 import WaterTankVisualization from '../../components/WaterTankVisualization';
 import "../dashboard-3/dashboard.css";
 
+export const metadata = {
+  title: "Dashboard"};
+
+
 const Home = () => {
   return (
     <div className='h-50 p-20'>
