@@ -5,8 +5,8 @@ import { getDatabase, ref, onValue, set } from 'firebase/database';
 import firebase from '../../firebase';
 import "../app/dashboard-3/dashboard.css";
 
-const TankHeight = 500; // Height of the tank in centimeters
-const ThresholdLimit = 350; // Threshold limit for water consumption
+const TankHeight = 100; // Height of the tank in centimeters
+const ThresholdLimit = 80; // Threshold limit for water consumption
 
 const WaterTankVisualization = () => {
   const [tankHeight, setTankHeight] = useState(0);

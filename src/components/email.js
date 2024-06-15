@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 
 // Function to send email notification
-export async function sendEmail(subject, text) {
+export async function sendEmail(email, subject, text) {
   try {
     // Create a nodemailer transporter
     let transporter = nodemailer.createTransport({
@@ -15,7 +15,7 @@ export async function sendEmail(subject, text) {
     // Define email options
     let mailOptions = {
       from: 'ajayhembromofficial2001@gmail.com',
-      to: 'ajayhembrom1395@gmail.com',
+      to: email,
       subject: subject,
       text: text
     };
@@ -26,4 +26,24 @@ export async function sendEmail(subject, text) {
   } catch (error) {
     console.error('Error sending email: ', error);
   }
+}
+
+// Function to send sign-up email
+export async function sendSignUpEmail(email, userDetails) {
+  const subject = 'Welcome to Our Application!';
+  const message = `
+    Dear ${userDetails.name},
+    
+    Thank you for signing up with our application. Here are your sign-up details:
+    
+    Email: ${email}
+    Password: ${userDetails.password}
+    
+    Feel free to reach out if you have any questions.
+    
+    Best regards,
+    Your Application Team
+  `;
+
+  await sendEmail(email, subject, message);
 }

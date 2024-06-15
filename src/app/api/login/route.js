@@ -1,5 +1,4 @@
-// pages/api/login.js
-
+// src/pages/api/login.js
 import { getDatabase, ref, child, get } from 'firebase/database';
 import { app } from '../../../../firebase'; // Adjust the path accordingly
 import { NextResponse } from 'next/server';

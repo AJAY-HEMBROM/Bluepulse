@@ -1,5 +1,5 @@
 body{
-    background: url("https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png");
+    background: url("../../../public/background_img.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,4 +39,26 @@ body{
 .typewriter-container {
   width: 50%; /* Adjust width as needed */
   float: left; /* Align to the left */
+}
+
+/* app/dashboard-3/dashboard.css */
+
+.beautiful-button {
+  background-color: #007bff; /* Blue background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the container element (button) an inline-block element */
+  font-size: 16px; /* Increase font size */
+  margin: 10px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.beautiful-button:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
 }

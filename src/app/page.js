@@ -1,3 +1,4 @@
+// src/app/page.js
 import Image from "next/image";
 import "../components/home.css";
 
@@ -17,7 +18,7 @@ export default function Home() {
           </p>
 
           <section id="features" className="my-20 flex space-x-5 m-auto">
-          <div className="mt-10">
+            <div className="mt-10">
               <Image
                 src="/waterTank.png"
                 alt="Smart Water Tank"
@@ -37,8 +38,6 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-
-            
           </section>
 
           <div></div>
@@ -53,8 +52,6 @@ export default function Home() {
             />
           </div>
         </div>
-
-       
       </div>
     </div>
   );
