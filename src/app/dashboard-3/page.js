@@ -15,10 +15,10 @@ const Home = () => {
         <h1>WATER TANK</h1>
         <WaterTankVisualization />
       </div>
-      <Link href="http://127.0.0.1:5000/">
+      {/* <Link href="http://127.0.0.1:5000/">
       click here to test
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Water Quality</button>
-      </Link> 
+      </Link>  */}
     </div>
   );
 };
